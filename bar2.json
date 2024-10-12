@@ -1,0 +1,25 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Drinking status by state",
+    "height": 250,
+    "params": [{ 
+      "name": "State", "value": "Australia",
+      "bind": {"input": "select", "options": ["Australia", "New South Wales", "Victoria", "Queensland", "Western Australia", "South Australia", "Tasmania", "Australian Capital Territory", "Northern Territory"]}
+    }],
+    "data": {"url": "bardata2.csv"},
+    "transform": [{
+        "filter": {
+            "field": "State",
+            "equal": {"expr": "State"}
+        }
+    }],
+    "mark": "bar",
+    "encoding": {
+        "x": {"field": "Status", "type": "nominal", "sort": null},
+        "y": {"field": "Percentage", "type": "quantitative"},
+        "tooltip": [
+            {"field": "Status", "type": "nominal"},
+            {"field": "Percentage", "type": "quantitative"}
+        ]
+    }
+  }

@@ -1,0 +1,55 @@
+State,Status,Percentage
+Australia,Daily,5.2
+Australia,Weekly,35.9
+Australia,Monthly,18.9
+Australia,Less than monthly,16.9
+Australia,Ex-drinker,8.2
+Australia,Never drank,14.9
+New South Wales,Daily,5.2
+New South Wales,Weekly,34.4
+New South Wales,Monthly,18.6
+New South Wales,Less than monthly,16.3
+New South Wales,Ex-drinker,8.6
+New South Wales,Never drank,17.0
+Victoria,Daily,4.0
+Victoria,Weekly,36.2
+Victoria,Monthly,18.7
+Victoria,Less than monthly,17.2
+Victoria,Ex-drinker,7.1
+Victoria,Never drank,16.7
+Queensland,Daily,6.4
+Queensland,Weekly,36.8
+Queensland,Monthly,18.4
+Queensland,Less than monthly,17.3
+Queensland,Ex-drinker,8.9
+Queensland,Never drank,12.1
+Western Australia,Daily,5.3
+Western Australia,Weekly,36.8
+Western Australia,Monthly,19.7
+Western Australia,Less than monthly,15.1
+Western Australia,Ex-drinker,9.0
+Western Australia,Never drank,14.1
+South Australia,Daily,4.7
+South Australia,Weekly,36.7
+South Australia,Monthly,19.9
+South Australia,Less than monthly,19.0
+South Australia,Ex-drinker,8.3
+South Australia,Never drank,11.4
+Tasmania,Daily,7.2
+Tasmania,Weekly,38.7
+Tasmania,Monthly,21.1
+Tasmania,Less than monthly,18
+Tasmania,Ex-drinker,7.0
+Tasmania,Never drank,8.0
+Australian Capital Territory,Daily,4.6
+Australian Capital Territory,Weekly,34.9
+Australian Capital Territory,Monthly,22.2
+Australian Capital Territory,Less than monthly,18.4
+Australian Capital Territory,Ex-drinker,7.6
+Australian Capital Territory,Never drank,12.3
+Northern Territory,Daily,7.2
+Northern Territory,Weekly,37.6
+Northern Territory,Monthly,16.9
+Northern Territory,Less than monthly,15.4
+Northern Territory,Ex-drinker,8.4
+Northern Territory,Never drank,14.5
