@@ -1,7 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {"url": "genderdata.csv"},
-    "width": 300,
+    "width": 600,
+    "height": 400,
     "mark": "bar",
     "encoding": {
         "y": {
