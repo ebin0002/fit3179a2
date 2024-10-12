@@ -1,0 +1,26 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "genderdata.csv"},
+    "width": 300,
+    "mark": "bar",
+    "encoding": {
+        "y": {
+            "field": "State",
+            "type": "nominal",
+            "sort": null
+        },
+        "x": {
+            "aggregate": "sum",
+            "title": "Percentage",
+            "field": "Percentage"
+        },
+        "color": {
+            "field": "Gender",
+            "scale": {"range": ["#F32F78", "#0000FF"]},
+            "legend": {"orient": "top", "title": null}
+        },
+        "tooltip": [
+            {"field": "Percentage", "type": "quantitative"}
+        ]
+    }
+}
